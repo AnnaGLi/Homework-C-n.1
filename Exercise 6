@@ -1,0 +1,9 @@
+//Exercise 6
+
+Console.WriteLine("Check if number is even");
+Console.Write("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine ());
+if (number % 2 == 0)
+Console.WriteLine ("is even");
+else Console.WriteLine ("not even");
+Console.ReadKey ();
