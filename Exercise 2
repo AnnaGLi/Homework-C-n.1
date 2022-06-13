@@ -1,0 +1,15 @@
+// Exercise 2
+Console.Write("Enter number a: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write ("Enter number b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+int big = 0;
+if( a > b )
+{
+big=a;
+}
+else
+big =b;
+{
+Console.WriteLine("max number is " + big);
+}
