@@ -1,0 +1,25 @@
+// Exercise 4
+Console.WriteLine ("maxNumber");
+Console.Write("Enter number a: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write ("Enter number b: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter number c: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int maxNumber = 0;
+if ((a > b) & (a>c));
+{ maxNumber = a;}
+if
+((b>a) & (b>c));
+
+{ maxNumber = b;}
+if
+((b>a) & (b>c));
+
+{ maxNumber = b;}
+    
+if ((c>a) & (c>b));
+ {maxNumber = c;}
+    
+
+Console.WriteLine ("max number is: "+ maxNumber);
